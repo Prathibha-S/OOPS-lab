@@ -4,7 +4,7 @@ public class StringMenudriven{
 		int n,ch;
 		boolean result=true;
 		System.out.println("Java String Operations");
-		System.out.println("\n1.Create new string\n2.String length\n3.String Concatenation\n4.Character extraction\n5.String Comparison\n6.Searching substrings\n7.Modifying a string");
+		System.out.println("\n1.Create new string\n2.String length\n3.String Concatenation\n4.Character extraction\n5.String Comparison\n6.Searching substrings\n7.Modifying a string\n8.Exit");
 			Scanner sc=new Scanner(System.in);
 			while(result) {
 			System.out.println("Enter your choice:");
@@ -76,4 +76,5 @@ public class StringMenudriven{
 		}
 		}
 }
+
 
