@@ -43,7 +43,6 @@ System.out.println("Enter the employee no to be searched:");
 empno=sc.nextInt();
 for(int i=0;i<n;i++) {
 	if(empno==e[i].eno) {
-		e[i]=new Employee();
 		e[i].display();
 		System.out.println("\n");
 		f=1;
