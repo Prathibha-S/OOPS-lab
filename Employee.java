@@ -1,8 +1,8 @@
-package javaprograms;
 import java.io.*;
 import java.util.*;
 public class Employee {
 int eno;
+
 String ename;
 double salary;
 void input() {
@@ -19,12 +19,8 @@ System.out.println("Employee id is:"+eno);
 System.out.println("Employee name is:"+ename);
 System.out.println("Employee salary is"+salary);
 }
-
 public static void main(String args[]){
 int n,empno,f=0;
-Employee eno=new Employee();
-Employee ename=new Employee();
-Employee salary=new Employee();
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter the no. of employees");
 n=sc.nextInt();
@@ -34,7 +30,7 @@ for(int i=0;i<n;i++) {
 	e[i].input();
 	System.out.println("\n");
 }
-System.out.println("Display");
+System.out.println("Display the details of employees");
 for(int i=0;i<n;i++) {
 	e[i].display();
 	System.out.println("\n");
