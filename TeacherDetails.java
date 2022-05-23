@@ -50,9 +50,6 @@ class Teacher extends Employee1{
 		System.out.println("Department: "+dep);
 		System.out.println("Teacher id: "+tid);
 	}
-	void input() {
-		
-	}
 }
 public class TeacherDetails {
 	public static void main(String args[]) {
